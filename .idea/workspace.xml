@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54afef33-9323-440f-b166-af766115508f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/svc/link_service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/svc/link_service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svc/social_graph_service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/svc/social_graph_service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svc/user_service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/svc/user_service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/link_service/k8s/link_manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc/link_service/k8s/link_manager.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/social_graph_service/k8s/social_graph_manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc/social_graph_service/k8s/social_graph_manager.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/user_service/k8s/user_manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc/user_service/k8s/user_manager.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
