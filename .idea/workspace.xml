@@ -2,9 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54afef33-9323-440f-b166-af766115508f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/svc/link_service/k8s/link_manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc/link_service/k8s/link_manager.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svc/social_graph_service/k8s/social_graph_manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc/social_graph_service/k8s/social_graph_manager.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svc/user_service/k8s/user_manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/svc/user_service/k8s/user_manager.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/link_service_e2e/link_service_e2e.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/link_service_e2e/link_service_e2e.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/social_graph_service_e2e/social_graph_service_e2e.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/social_graph_service_e2e/social_graph_service_e2e.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/user_service_e2e/user_service_e2e.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/user_service_e2e/user_service_e2e.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager/abstract_link_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager/abstract_link_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager/db_link_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager/db_link_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager/db_link_store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager/db_link_store_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager/in_memory_link_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager/in_memory_link_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager/link_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager/link_manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager_client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/link_manager_client/endpoints.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/link_manager_client/endpoints.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/social_graph_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/social_graph_client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/social_graph_manager/db_scoial_graph_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/social_graph_manager/db_scoial_graph_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/social_graph_manager/db_social_graph_manager_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/social_graph_manager/db_social_graph_manager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/social_graph_manager/in_memory_social_graph_manager_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/social_graph_manager/in_memory_social_graph_manager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/social_graph_manager/in_memory_social_graph_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/social_graph_manager/in_memory_social_graph_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/social_graph_manager/social_graph_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/social_graph_manager/social_graph_manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_client/endpoints.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_client/endpoints.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_manager/db_user_manager_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_manager/db_user_manager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_manager/db_user_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_manager/db_user_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_manager/in_memory_user_manager_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_manager/in_memory_user_manager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_manager/in_memory_user_store.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_manager/in_memory_user_store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/user_manager/user_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/user_manager/user_manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/link_service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/link_service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/link_service/service/link_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/link_service/service/link_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/link_service/service/transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/link_service/service/transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/social_graph_service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/social_graph_service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/social_graph_service/service/social_graph_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/social_graph_service/service/social_graph_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/social_graph_service/service/transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/social_graph_service/service/transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/user_service/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/user_service/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/user_service/service/transport.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/user_service/service/transport.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svc/user_service/service/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/svc/user_service/service/user_service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +49,11 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1lgrnOa0FPpbrShUDdA4ma3x9DV" />
   <component name="ProjectViewState">
@@ -26,6 +63,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -37,5 +77,15 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="104" key="#GOPATH" timestamp="1608031713011">
+      <screen x="0" y="25" width="1440" height="834" />
+    </state>
+    <state x="520" y="104" key="#GOPATH/0.25.1440.834@0.25.1440.834" timestamp="1608031713011" />
+    <state x="421" y="31" width="597" height="822" key="find.popup" timestamp="1608031596980">
+      <screen x="0" y="25" width="1440" height="834" />
+    </state>
+    <state x="421" y="31" width="597" height="822" key="find.popup/0.25.1440.834@0.25.1440.834" timestamp="1608031596980" />
   </component>
 </project>

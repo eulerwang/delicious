@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/the-gigi/delinkcious/pkg/db_util"
+	"github.com/eulerwang/delinkcious/pkg/db_util"
 	"log"
 	"net/http"
 
 	httptransport "github.com/go-kit/kit/transport/http"
-	sgm "github.com/the-gigi/delinkcious/pkg/user_manager"
+	sgm "github.com/eulerwang/delinkcious/pkg/user_manager"
 )
 
 func Run() {
