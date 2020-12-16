@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: link-manager
-        image: eulerwangalpha/delinkcious-link:0.3
+        image: eulerwangalpha/delinkcious-link:0.4
         ports:
         - containerPort: 8080
 ---
