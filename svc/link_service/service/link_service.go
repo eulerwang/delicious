@@ -63,5 +63,6 @@ func Run() {
 	r.Methods("DELETE").Path("/links").Handler(deleteLinkHandler)
 
 	log.Println("Listening on port 8080...")
+	log.Println("Listening on port 8080...")
 	log.Fatal(http.ListenAndServe(":8080", r))
 }

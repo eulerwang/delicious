@@ -48,5 +48,6 @@ func Run() {
 	http.Handle("/logout", LogoutHandler)
 
 	log.Println("Listening on port 7070...")
+	log.Println("Listening on port 7070...")
 	log.Fatal(http.ListenAndServe(":7070", nil))
 }

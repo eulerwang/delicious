@@ -70,5 +70,6 @@ func Run() {
 	r.Methods("GET").Path("/followers/{username}").Handler(getFollowersHandler)
 
 	log.Println("Listening on port 9090...")
+	log.Println("Listening on port 9090...")
 	log.Fatal(http.ListenAndServe(":9090", r))
 }
