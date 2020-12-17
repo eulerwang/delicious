@@ -9,7 +9,7 @@ TAG="${STABLE_TAG}.${CIRCLE_BUILD_NUM}"
 ROOT_DIR="$(pwd)"
 SVC_DIR="${ROOT_DIR}/svc"
 cd $SVC_DIR
-docker login -u eulerwangalpha -p Turing718930
+docker login -u eulerwangalpha -p alphabeta
 for svc in *; do
     cd "${SVC_DIR}/$svc"
     if [[ ! -f Dockerfile ]]; then
